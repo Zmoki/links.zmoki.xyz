@@ -3,7 +3,9 @@ layout: layouts/base.njk
 ---
 # Zarema Khalilova
 
-Here are my profiles:
+<p>Contemporary Artist ✨ Software Engineer ✨ Kabardian girl in Cyprus</p>
+
+<p>Here are the profiles:</p>
 
 <ul>
   {% for profile in profiles %}
