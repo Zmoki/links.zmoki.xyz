@@ -1,21 +1,24 @@
 ---
 layout: layouts/base.njk
 ---
+<style>
+  .profiles {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+  }
+  .profiles-item {
+    padding: 0.5em 0;
+  }
+</style>
 # Zarema Khalilova
 
-<p>Contemporary Artist ✨ Software Engineer ✨ Kabardian girl in Cyprus</p>
+Contemporary Artist ✨ Software Engineer ✨ Kabardian girl in Cyprus
 
-<p>Here are the profiles:</p>
+---
 
-<ul>
-  {% for profile in profiles %}
-    <li>
-      <a href="{{ profile.URL }}">{{ profile.Platform }}</a>
-    </li>
-  {% endfor %}
+Here are the profiles:
+
+<ul class="profiles">
+  {% for profile in profiles %}<li class="profiles-item"><a href="{{ profile.URL }}">{{ profile.Platform }}</a></li>{% endfor %}
 </ul>
-
-<footer>
-  <p><small><a href="https://github.com/Zmoki/links.zmoki.xyz">Source code on GitHub</a></small></p>
-  <p><small>Copyright © 2023 Zarema Khalilova</small></p>
-</footer>
