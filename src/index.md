@@ -10,7 +10,12 @@ layout: layouts/base.njk
 <ul>
   {% for profile in profiles %}
     <li>
-      <a href="{{ profile.URL }}">{{ profile.Platform }} {{ profile.Name }}</a>
+      <a href="{{ profile.URL }}">{{ profile.Platform }}</a>
     </li>
   {% endfor %}
 </ul>
+
+<footer>
+  <p><small><a href="https://github.com/Zmoki/links.zmoki.xyz">Source code on GitHub</a></small></p>
+  <p><small>Copyright © 2023 Zarema Khalilova</small></p>
+</footer>
