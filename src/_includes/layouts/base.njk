@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if title %}{{ title }}{% else %}{{ meta.title }}{% endif %}</title>
     <meta name="description" content="{% if description %}{{ description }}{% else %}{{ meta.description }}{% endif %}" />
-    <link rel="canonical" href="{% if canonical %}{{ canonical }}{% else %}{{ meta.baseUrl }}{{ page.url }}{% endif %}"
+    <link rel="canonical" href="{% if canonical %}{{ canonical }}{% else %}{{ meta.baseUrl }}{{ page.url }}{% endif %}" />
   </head>
   <body>
     {{ content | safe }}
