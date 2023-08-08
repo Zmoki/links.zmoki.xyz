@@ -5,14 +5,14 @@
     "Platform": "Instagram"
   },
   {
-    "Name": "@Zmoki",
-    "URL": "https://twitter.com/Zmoki",
+    "Name": "@zmoki",
+    "URL": "https://twitter.com/zmoki",
     "Platform": "Twitter [X]"
   },
   {
-    "Name": "@zmoki",
-    "URL": "https://www.threads.net/@zmoki",
-    "Platform": "Threads"
+    "Name": "@zmoki@mastodon.world",
+    "URL": "https://mastodon.world/@zmoki",
+    "Platform": "Mastodon"
   },
   {
     "Name": "Zarema Khalilova (zmoki)",
@@ -20,13 +20,13 @@
     "Platform": "Facebook"
   },
   {
-    "Name": "Profile",
+    "Name": "Zarema Khalilova",
     "URL": "https://www.linkedin.com/in/zaremakhalilova",
     "Platform": "LinkedIn"
   },
   {
-    "Name": "@Zmoki",
-    "URL": "https://github.com/Zmoki",
+    "Name": "@zmoki",
+    "URL": "https://github.com/zmoki",
     "Platform": "GitHub"
   }
 ]
