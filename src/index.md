@@ -20,5 +20,5 @@ Contemporary Artist ✨ Software Engineer ✨ Kabardian girl in Cyprus
 Here are the profiles:
 
 <ul class="profiles">
-  {% for profile in profiles %}<li class="profiles-item"><a href="{{ profile.URL }}">{{ profile.Platform }}</a></li>{% endfor %}
+  {% for profile in profiles %}<li class="profiles-item"><a rel="me" href="{{ profile.URL }}">{{ profile.Platform }}</a></li>{% endfor %}
 </ul>
