@@ -11,18 +11,20 @@
           height: 100%;
       }
       body {
-          min-height: 100vh;
-          max-width: 400px;
-          margin: 0 auto;
-          font-family: sans-serif;
+        min-height: 100vh;
+        max-width: 400px;
+        margin: 0 auto;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
       }
       main, footer {
         box-sizing: border-box;
         padding: 20px;
         text-align: center;
       }
-      main {
-        min-height: calc(100vh - 150px);
+      footer {
+        margin-top: auto;
       }
       hr {
         overflow: visible;
