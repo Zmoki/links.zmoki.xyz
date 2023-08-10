@@ -15,6 +15,10 @@ layout: layouts/base.njk
 
 Contemporary Artist ✨ Software Engineer ✨ Kabardian girl in Cyprus
 
+**I'm looking for job opportunities**
+
+**[check my resume](https://zmoki.xyz/resume)**
+
 ---
 
 Here are the profiles:
