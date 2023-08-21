@@ -5,7 +5,9 @@ layout: layouts/base.njk
   .links {
     list-style: none;
     padding: 0;
-    columns: 2;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
   }
   .links__item {
     padding: 0.5em 0;
@@ -15,9 +17,13 @@ layout: layouts/base.njk
 
 Contemporary Artist ✨ Software Engineer ✨ Kabardian girl in Cyprus
 
+---
+
 **I'm looking for job opportunities**
 
-**[check my resume](https://zmoki.xyz/resume)**
+**[Check my resume](https://zmoki.xyz/resume)**
+
+**[Book a call](https://calendly.com/zmoki/30min)**
 
 ---
 
