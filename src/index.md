@@ -15,15 +15,7 @@ layout: layouts/base.njk
 </style>
 # Zarema Khalilova
 
-Contemporary Artist ✨ Software Engineer ✨ Kabardian girl in Cyprus
-
----
-
-**I'm looking for job opportunities**
-
-**[Check my resume](https://zmoki.xyz/resume)**
-
-**[Book a call](https://calendly.com/zmoki/30min)**
+Contemporary Artist ✨ Woman in Tech & Web3 ✨ Kabardian in Cyprus
 
 ---
 
