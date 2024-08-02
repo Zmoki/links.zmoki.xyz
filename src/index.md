@@ -15,26 +15,24 @@ layout: layouts/base.njk
 </style>
 # Zarema Khalilova
 
-Contemporary Artist ✨ Software Engineer ✨ Kabardian girl in Cyprus
+Contemporary Artist + Software Engineer
+
+Kabardian
 
 ---
 
-**I'm looking for job opportunities**
-
-**[Check my resume](https://zmoki.xyz/resume)**
-
-**[Book a call](https://calendly.com/zmoki/30min)**
-
----
-
-Here are the profiles:
+## Follow me
 
 <ul class="links">
   {% for profile in profiles %}<li class="links__item"><a rel="me" href="{{ profile.URL }}">{{ profile.Platform }}</a></li>{% endfor %}
 </ul>
 
-Message me
+## Message me
 
 <ul class="links">
   {% for contact in contacts %}<li class="links__item"><a rel="me" href="{{ contact.url }}">{{ contact.name }}</a></li>{% endfor %}
 </ul>
+
+---
+
+📍Currently in Tbilisi, Georgia
