@@ -6,6 +6,15 @@
     <title>{% if title %}{{ title }}{% else %}{{ meta.title }}{% endif %}</title>
     <meta name="description" content="{% if description %}{{ description }}{% else %}{{ meta.description }}{% endif %}" />
     <link rel="canonical" href="{% if canonical %}{{ canonical }}{% else %}{{ meta.baseUrl }}{{ page.url }}{% endif %}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ec008d">
+    <meta name="apple-mobile-web-app-title" content="Zmoki">
+    <meta name="application-name" content="Zmoki">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
     <style>
       html {
           height: 100%;
