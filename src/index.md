@@ -6,8 +6,9 @@ layout: layouts/base.njk
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: space-between;
-    gap: 1em;
+    justify-content: center;
+    gap: 0 0.8em;
+    flex-wrap: wrap;
   }
   .links__item {
     padding: 0.5em 0;
