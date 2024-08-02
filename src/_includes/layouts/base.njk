@@ -61,9 +61,6 @@
         text-decoration: none;
       }
     </style>
-    {% if env.withAnalytics == "true" %}
-    <script defer data-domain="{{ meta.domain }}" src="https://plausible.io/js/script.outbound-links.js"></script>
-    {% endif %}
   </head>
   <body>
     <main>{{ content | safe }}</main>
